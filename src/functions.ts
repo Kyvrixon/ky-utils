@@ -140,7 +140,6 @@ export const createLeaderboard = async (
 		interaction.deferred || interaction.replied ? "editReply" : "reply";
 	let msg;
 	try {
-		// @ts-ignore
 		msg = await interaction[replyMethod]({
 			...replyOptions,
 			components: extra_components ? [row, extra_components] : [row],

@@ -1,9 +1,5 @@
 import {
-    ActionRowBuilder,
-    BaseInteraction,
-    ButtonBuilder,
     ButtonInteraction,
-    ButtonStyle,
     ChannelSelectMenuInteraction,
     CommandInteraction,
     ContextMenuCommandInteraction,
@@ -14,12 +10,10 @@ import {
     RoleSelectMenuInteraction,
     StringSelectMenuInteraction,
     UserSelectMenuInteraction,
-    TextChannel,
 	ChatInputCommandInteraction,
 	MessageInteractionMetadata,
-	chatInputApplicationCommandMention
 } from "discord.js";
-import { footer, getInvite } from "./functions.js";
+import { footer } from "./functions.js";
 import Logger from "./logger.js";
 
 
