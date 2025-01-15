@@ -1,0 +1,13 @@
+{
+  "name": "@kyvrixon/functions",
+  "version": "0.0.1",
+  "description": "Helper functions for Kyvrixon Development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyvrixon"
+  },
+  "license": "MIT",
+  "author": "Kyvrixon",
+  "type": "module",
+  "main": "index.js"
+}
