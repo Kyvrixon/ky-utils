@@ -11,6 +11,14 @@
   "type": "module",
   "main": "index.js",
   "dependencies": {
-    "chalk": "^5.4.1"
+    "chalk": "^5.4.1",
+    "discord.js": "^14.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "eslint-plugin-prettier": "^5.2.2",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
   }
 }
