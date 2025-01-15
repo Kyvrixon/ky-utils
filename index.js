@@ -1,1 +1,1 @@
-export * from "./src/functions.js";
+export * from "./src/logger.js";

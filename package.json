@@ -1,5 +1,5 @@
 {
-  "name": "@kyvrixon/functions",
+  "name": "@ky/utils",
   "version": "0.0.1",
   "description": "Helper functions for Kyvrixon Development",
   "repository": {
@@ -9,5 +9,8 @@
   "license": "MIT",
   "author": "Kyvrixon",
   "type": "module",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
